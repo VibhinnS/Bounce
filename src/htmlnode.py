@@ -28,7 +28,14 @@ class HTMLNode:
         )
 
 class LeafNode(HTMLNode):
-    def __init__(self, tag, value, props={}):
+    """Creates a leaf node
+    
+    Args: 
+        tag (str): tag name [default None]
+        value (str): value of the tag [default None]
+        props (dict): tag properties [default {}]
+    """
+    def __init__(self, tag :str, value :str, props={str:str}):
         super().__init__(tag, value, None, props)
 
     def to_html(self):

@@ -1,2 +1,2 @@
-Python Version - 3.12
-Linter Tool - Ruff
+- Python Version - 3.12
+- Linter Tool - Ruff
